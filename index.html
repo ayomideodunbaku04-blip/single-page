@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Web App</title>
+    <link rel="stylesheet" href="single-web.css">
+</head>
+<body>
+    <!-- Header and Nav bar -->
+    <nav class="navbar">
+        <!-- logo -->
+         <div class="logo">BrightWeb</div>
+
+         <!-- Navigation bar -->
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- hamburger -->
+
+          <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+
+    </nav>
+
+    <!-- Home section -->
+     
+    <section id="home">
+
+        <div class="home-content">
+            <h1>Welcome to <span>BrightWeb</span></h1>
+            <p>We help business grow with modern websites,
+                creative designs, and reliable digital <br> solution.
+            Let us help you take your business to the next level.
+            </p>
+
+            <div class="btn-container">
+                <button class="button">
+                    
+                    <a href="#services" >
+                Explore our Services
+                <img src="icons/arrow-up-solid-full.svg" alt="">
+            </a>
+                </button>
+            <button class="sec-button">
+                <a href="#contact" >
+                Contact Us
+            </a>
+            </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services section -->
+
+    <section id="services">
+        <div class="services-section">
+            <h2>Our Services</h2>
+            <p>Discover how we can help you achieve your goal</p>
+        </div>
+
+        <div class="services-container">
+            <div class="services-card">
+                <h1>💻</h1>
+                <h3>Web Development</h3>
+                <p>We create modern responsive and user friendly websites
+                     for businesses,schools and individuals.</p>
+            </div>
+            <div class="services-card">
+                <h1>🎨</h1>
+                <h3>Graphic Deisgn</h3>
+                <p>We design attractive graphics,business flyers,logos,
+                    and promotional material for your brand.</p>
+            </div>
+            <div class="services-card">
+                <h1>📱</h1>
+                <h3>Mobile Application</h3>
+                <p>We help businesses connect with their customer through
+                    modern and user friendly mobile apps.
+                </p>
+            </div>
+            <div class="services-card">
+                <h1>⌨</h1>
+                <h3>Computer Training</h3>
+                <p>We teaches computer basics, web development, programming,
+                    and other essential digital skills.
+                </p>
+            </div>
+            <div class="services-card">
+                <h1>⚙</h1>
+                <h3>Software Development</h3>
+                <p>We build software solution that help organizations manage
+                    their daily operations more efficiently.
+                </p>
+            </div>
+            <div class="services-card">
+                <h1>🌏</h1>
+                <h3>Digital Solution</h3>
+                <p>We provide technology solutions that help brands improve
+                    productivity and reach more customers.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About section -->
+
+    <section id="about">
+        <h2>About Us</h2>   
+        <div class="about-section">
+            
+            <div class="left-about">
+                <h1>💡</h1>
+            </div>
+
+            <div class="right-about">
+                
+                <p>BrightWeb is a technology focused company commited to helping
+                    individuals, businesses, and organization succeed in the digital world.
+                </p>
+                <p>
+                    We combine creativity, technology, and innovation to deliver solutions that
+                    meet our client needs. Our goal is to make technology useful, accessible <br> and
+                    effective for everyone.
+                </p>
+                <p>
+                    <ul>
+                        <li>Professional and creative solutions</li>
+                        <li>Reliable and user-friendly services</li>
+                        <li>Customer satisfaction is our priority</li>
+                        <li>Commitment to innovation and growth</li>
+                    </ul>
+                </p>
+                <button class="work-btn">Work with us</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact section -->
+
+    <section id="contact">
+        <div class="text">
+            <h2>Contact Us</h2>
+            <p>Have  a project or question? We would love to hear from you</p>
+        </div>
+        <div class="contact-page">
+            <div class="left-contact">
+                <h2>Get in touch</h2>
+                <p>📍 Address: Lagos Nigeria</p>
+                <p>📧 Email: info@brightweb.com</p>
+                <p>📞 Phone: +234 900 905 2222</p>
+                <p>We are ready to help you turn your ideas into  practical
+                    digital solutions.
+                </p>
+            </div> 
+            <div class="right-contact">
+                <h2>Send us a message</h2>
+                <form action="#" method="post">
+                    
+                        <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name">
+                    
+
+                    
+                        <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                    
+
+                    
+                        <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                    
+
+                    
+                        <label for="message">Your Message</label>
+                    <textarea name="" id="message" class="area" placeholder="Write your message here"></textarea>
+                    
+
+                    <input type="submit" value="send message" class="message-btn">
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <section >
+
+        <div class="footer">
+            <p>© 2026 BrightWeb. All Rights Reserved.</p>
+            <p>Designed with HTML and CSS</p>
+            <a href="#home">Back to top</a>
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="singlepage.js"></script>
+
+</body>
+</html>
